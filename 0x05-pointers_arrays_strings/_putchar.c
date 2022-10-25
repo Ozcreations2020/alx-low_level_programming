@@ -5,7 +5,6 @@
  * @c: char to be printed
  * Return: On success 1
  * */
-
 int_putchar(char c)
 {
 	return (write(1, &c, 1));
